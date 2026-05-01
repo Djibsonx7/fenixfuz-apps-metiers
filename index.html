@@ -3,238 +3,64 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FenixFuz — Applications métiers et solutions web sur mesure</title>
-  <meta name="description" content="FenixFuz conçoit des applications métiers, outils de gestion, tableaux de bord et solutions web sur mesure pour aider les PME, commerçants et entrepreneurs à mieux gérer leur activité." />
-  <meta name="theme-color" content="#0f172a" />
-  <meta property="og:title" content="Applications métiers et solutions web sur mesure | FenixFuz" />
-  <meta property="og:description" content="Gérez mieux vos ventes, clients, stocks et processus avec un outil simple, professionnel et adapté à votre activité." />
-  <meta property="og:type" content="website" />
+  <title>FenixFuz — Applications métiers premium & solutions web sur mesure</title>
+  <meta name="description" content="Applications métiers, tableaux de bord, automatisation et solutions web sur mesure pour PME, commerces et entreprises au Sénégal." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="site-header">
-    <nav class="nav container" aria-label="Navigation principale">
-      <a class="brand" href="#top" aria-label="FenixFuz accueil">
-        <span class="brand-mark">F</span>
-        <span class="brand-text">FenixFuz</span>
-      </a>
-      <div class="nav-links">
-        <a href="#solutions">Solutions</a>
-        <a href="#methode">Méthode</a>
-        <a href="#exemples">Exemples</a>
-        <a href="#contact">Contact</a>
-      </div>
-      <a class="btn btn-small btn-primary whatsapp-link" href="https://wa.me/221777989238?text=Bonjour%2C%20je%20souhaite%20cr%C3%A9er%20une%20application%20ou%20solution%20web%20pour%20mon%20activit%C3%A9.%20Pouvez-vous%20m%27aider%20%C3%A0%20cadrer%20le%20besoin%20et%20me%20proposer%20un%20devis%20%3F" target="_blank" rel="noopener">Demander un devis</a>
+    <nav class="nav container">
+      <a class="brand" href="#top"><span class="brand-mark">F</span><span>FenixFuz</span></a>
+      <div class="nav-links"><a href="#solutions">Solutions</a><a href="#showcase">Aperçus</a><a href="#methode">Méthode</a><a href="#contact">Contact</a></div>
+      <a class="btn btn-primary whatsapp-link" href="https://wa.me/221777989238?text=Bonjour%2C%20je%20souhaite%20cr%C3%A9er%20une%20application%20ou%20solution%20web%20pour%20mon%20activit%C3%A9.%20Voici%20mon%20besoin%20%3A" target="_blank">Demander un devis</a>
     </nav>
   </header>
 
   <main id="top">
-    <section class="hero section-pad">
+    <section class="hero">
+      <div class="hero-bg"></div>
       <div class="container hero-grid">
-        <div class="hero-content">
-          <p class="eyebrow">Applications métiers • Solutions web • Automatisation</p>
-          <h1>Des outils simples pour mieux gérer votre entreprise.</h1>
-          <p class="hero-lead">FenixFuz conçoit des applications web sur mesure pour suivre vos ventes, clients, stocks, commandes et processus — sans complexifier votre activité.</p>
-          <div class="hero-actions">
-            <a class="btn btn-primary btn-large whatsapp-link" href="https://wa.me/221777989238?text=Bonjour%2C%20je%20souhaite%20cr%C3%A9er%20une%20application%20ou%20solution%20web%20pour%20mon%20activit%C3%A9.%20Voici%20mon%20besoin%20%3A" target="_blank" rel="noopener">Expliquer mon besoin sur WhatsApp</a>
-            <a class="btn btn-secondary btn-large" href="#contact">Recevoir une orientation</a>
-          </div>
-          <div class="trust-row" aria-label="Points de confiance">
-            <span>Approche business</span>
-            <span>Première version rapide</span>
-            <span>Accompagnement local</span>
-          </div>
+        <div class="hero-copy reveal">
+          <span class="badge">Applications métiers • Dashboards • Automatisation</span>
+          <h1>Passez d’une gestion dispersée à une application claire, moderne et utile.</h1>
+          <p>Nous concevons des plateformes web sur mesure pour suivre vos ventes, clients, stocks, commandes et opérations avec une expérience professionnelle.</p>
+          <div class="hero-actions"><a class="btn btn-primary btn-xl whatsapp-link" href="https://wa.me/221777989238?text=Bonjour%2C%20je%20souhaite%20cr%C3%A9er%20une%20application%20ou%20solution%20web%20pour%20mon%20activit%C3%A9.%20Voici%20mon%20besoin%20%3A" target="_blank">Expliquer mon besoin sur WhatsApp</a><a class="btn btn-ghost btn-xl" href="#showcase">Voir les aperçus</a></div>
+          <div class="proof-strip"><span>Première version rapide</span><span>Approche business</span><span>Design professionnel</span></div>
         </div>
-        <div class="hero-visual" aria-label="Aperçu tableau de bord fictif">
-          <div class="dashboard-card main-dashboard">
-            <div class="dash-top">
-              <div>
-                <span class="dash-label">Tableau de bord</span>
-                <h3>Suivi activité</h3>
-              </div>
-              <span class="status-pill">En ligne</span>
-            </div>
-            <div class="metric-grid">
-              <div class="metric"><span>Ventes</span><strong>1.8M</strong><small>+18% ce mois</small></div>
-              <div class="metric"><span>Clients</span><strong>248</strong><small>32 nouveaux</small></div>
-              <div class="metric"><span>Stock faible</span><strong>12</strong><small>à réapprovisionner</small></div>
-            </div>
-            <div class="chart-bars" aria-hidden="true">
-              <span style="height:42%"></span><span style="height:68%"></span><span style="height:55%"></span><span style="height:82%"></span><span style="height:74%"></span><span style="height:92%"></span>
-            </div>
-            <div class="mini-table">
-              <div><span>Commande #2048</span><strong>Payée</strong></div>
-              <div><span>Client — Ndiaye Services</span><strong>Suivi</strong></div>
-              <div><span>Article — Rupture proche</span><strong>Alerte</strong></div>
+
+        <div class="product-stage reveal delay-1">
+          <div class="app-window floating">
+            <div class="window-top"><div class="dots"><i></i><i></i><i></i></div><span>FenixFuz Workspace</span></div>
+            <div class="app-body">
+              <aside><strong>BusinessOS</strong><a class="active">Dashboard</a><a>Clients</a><a>Stock</a><a>Ventes</a><a>Rapports</a></aside>
+              <section class="screen">
+                <div class="screen-head"><div><small>Vue générale</small><h3>Performance activité</h3></div><button>Exporter</button></div>
+                <div class="kpi-row"><div><span>CA mensuel</span><b>2.4M</b><em>+24%</em></div><div><span>Commandes</span><b>186</b><em>+17%</em></div><div><span>Stock critique</span><b>9</b><em>Alerte</em></div></div>
+                <div class="analytics"><div class="bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="activity"><h4>Activité récente</h4><p><b>Nouveau client</b><span>Diop Distribution</span></p><p><b>Commande payée</b><span>#3042</span></p><p><b>Alerte stock</b><span>12 produits</span></p></div></div>
+              </section>
             </div>
           </div>
-          <div class="floating-card card-left">
-            <span>Automatisation</span>
-            <strong>3 tâches simplifiées</strong>
-          </div>
-          <div class="floating-card card-right">
-            <span>Décision</span>
-            <strong>Données claires</strong>
-          </div>
+          <div class="glass-card pulse-card"><span>Automatisation</span><b>Rapport envoyé automatiquement</b></div>
+          <div class="glass-card pulse-card two"><span>Décision</span><b>Données visibles en temps réel</b></div>
         </div>
       </div>
     </section>
 
-    <section class="problem section-pad-sm">
-      <div class="container split-card">
-        <div>
-          <p class="eyebrow">Le problème</p>
-          <h2>Votre activité avance, mais votre gestion reste dispersée.</h2>
-        </div>
-        <div class="problem-list">
-          <p>Excel, cahiers, messages WhatsApp, informations perdues, erreurs de stock, absence de suivi client… Ces petits blocages finissent par coûter du temps, de l’argent et des opportunités.</p>
-        </div>
-      </div>
-    </section>
+    <section class="section intro reveal"><div class="container intro-card"><div><span class="badge light">Le vrai problème</span><h2>Ce n’est pas juste “créer une application”. C’est mieux piloter votre activité.</h2></div><p>Excel, cahiers, WhatsApp, fichiers séparés, erreurs de suivi, retards de reporting… Nous transformons ces frictions en outil simple et centralisé.</p></div></section>
 
-    <section id="solutions" class="section-pad">
-      <div class="container">
-        <div class="section-head">
-          <p class="eyebrow">Ce que nous pouvons créer</p>
-          <h2>Des solutions adaptées à votre besoin réel.</h2>
-          <p>On part de votre activité, pas de la technologie. L’objectif : construire un outil utile, clair et utilisable rapidement.</p>
-        </div>
-        <div class="cards-grid">
-          <article class="service-card"><span>01</span><h3>Gestion de stock</h3><p>Suivez les entrées, sorties, alertes de rupture et mouvements de produits.</p></article>
-          <article class="service-card"><span>02</span><h3>Suivi clients & ventes</h3><p>Centralisez vos prospects, clients, commandes, paiements et relances.</p></article>
-          <article class="service-card"><span>03</span><h3>Tableaux de bord</h3><p>Visualisez vos chiffres clés pour décider plus vite et piloter votre activité.</p></article>
-          <article class="service-card"><span>04</span><h3>Automatisation</h3><p>Réduisez les tâches répétitives : notifications, rapports, formulaires, exports.</p></article>
-          <article class="service-card"><span>05</span><h3>Application interne</h3><p>Créez un outil simple pour votre équipe : opérations, suivi, validation, reporting.</p></article>
-          <article class="service-card"><span>06</span><h3>MVP rapide</h3><p>Testez une idée business avec une première version propre avant d’investir plus.</p></article>
-        </div>
-      </div>
-    </section>
+    <section id="solutions" class="section"><div class="container"><div class="section-head reveal"><span class="badge light">Solutions possibles</span><h2>Des applications qui ressemblent à votre métier.</h2><p>Chaque projet commence par un cadrage simple : quel problème doit disparaître, quelles données suivre, qui utilise l’outil et quelle première version livrer.</p></div><div class="solution-grid"><article class="solution reveal"><span>01</span><h3>Gestion stock & commandes</h3><p>Entrées, sorties, alertes, historique, suivi fournisseur et disponibilité.</p></article><article class="solution reveal"><span>02</span><h3>Suivi clients & ventes</h3><p>Prospects, clients, devis, ventes, paiements, relances et opportunités.</p></article><article class="solution reveal"><span>03</span><h3>Dashboards dirigeants</h3><p>Indicateurs clairs pour suivre l’activité sans chercher les données partout.</p></article><article class="solution reveal"><span>04</span><h3>Automatisation interne</h3><p>Réduire les tâches répétitives : notifications, rapports, validations, formulaires.</p></article></div></div></section>
 
-    <section class="before-after section-pad-sm">
-      <div class="container compare-grid">
-        <div class="compare-card muted">
-          <h3>Avant</h3>
-          <ul>
-            <li>Données éparpillées</li>
-            <li>Suivi manuel et erreurs</li>
-            <li>Aucune vision claire</li>
-            <li>Difficulté à déléguer</li>
-          </ul>
-        </div>
-        <div class="compare-card strong">
-          <h3>Après</h3>
-          <ul>
-            <li>Informations centralisées</li>
-            <li>Processus plus rapides</li>
-            <li>Tableau de bord clair</li>
-            <li>Outil adapté à votre façon de travailler</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+    <section id="showcase" class="section showcase"><div class="container"><div class="section-head center reveal"><span class="badge light">Vitrine produit</span><h2>Une interface que vos clients et équipes auront envie d’utiliser.</h2><p>Les aperçus ci-dessous donnent le niveau de finition visuelle visé pour vos futures solutions.</p></div><div class="showcase-grid"><div class="phone mock reveal"><div class="phone-screen"><h4>Commandes</h4><div class="mini-kpi">+18% cette semaine</div><p></p><p></p><p></p></div></div><div class="tablet mock reveal delay-1"><div class="tablet-ui"><div class="tablet-chart"></div><div class="tablet-list"><span></span><span></span><span></span><span></span></div></div></div><div class="panel mock reveal delay-2"><h4>Reporting</h4><div class="ring">72%</div><span>Objectif atteint</span></div></div></div></section>
 
-    <section id="exemples" class="section-pad">
-      <div class="container">
-        <div class="section-head">
-          <p class="eyebrow">Aperçus visuels</p>
-          <h2>Des interfaces propres qui inspirent confiance.</h2>
-          <p>Ces exemples illustrent le type d’outils que nous pouvons cadrer et développer selon votre activité.</p>
-        </div>
-        <div class="mockup-grid">
-          <div class="mockup-card">
-            <div class="mockup-header"><span></span><span></span><span></span></div>
-            <h3>Stock & commandes</h3>
-            <div class="list-lines"><i></i><i></i><i></i><i></i></div>
-          </div>
-          <div class="mockup-card featured">
-            <div class="mockup-header"><span></span><span></span><span></span></div>
-            <h3>Ventes & clients</h3>
-            <div class="donut" aria-hidden="true"></div>
-            <p>Vue synthétique des performances, relances et opportunités.</p>
-          </div>
-          <div class="mockup-card">
-            <div class="mockup-header"><span></span><span></span><span></span></div>
-            <h3>Reporting simple</h3>
-            <div class="mini-bars"><i></i><i></i><i></i><i></i><i></i></div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section id="methode" class="section method"><div class="container"><div class="section-head reveal"><span class="badge light">Méthode</span><h2>Commencer petit, livrer propre, améliorer vite.</h2></div><div class="steps"><div class="step reveal"><b>1</b><h3>Cadrage</h3><p>On clarifie le besoin, les utilisateurs et les priorités.</p></div><div class="step reveal"><b>2</b><h3>Prototype</h3><p>On propose une structure simple et une expérience lisible.</p></div><div class="step reveal"><b>3</b><h3>Version utilisable</h3><p>On construit une première version exploitable rapidement.</p></div><div class="step reveal"><b>4</b><h3>Amélioration</h3><p>On ajuste avec vos retours et vos usages réels.</p></div></div></div></section>
 
-    <section id="methode" class="section-pad bg-soft">
-      <div class="container">
-        <div class="section-head">
-          <p class="eyebrow">Notre méthode</p>
-          <h2>On simplifie avant de développer.</h2>
-          <p>Le but n’est pas de créer une application compliquée. Le but est de livrer une première version claire, utile et améliorable.</p>
-        </div>
-        <div class="steps">
-          <div class="step"><span>1</span><h3>Vous expliquez le besoin</h3><p>Votre activité, vos problèmes, vos outils actuels, vos priorités.</p></div>
-          <div class="step"><span>2</span><h3>Nous cadrons la solution</h3><p>Fonctions utiles, périmètre simple, estimation, étapes et délais.</p></div>
-          <div class="step"><span>3</span><h3>Nous créons une première version</h3><p>Un outil utilisable rapidement pour tester en conditions réelles.</p></div>
-          <div class="step"><span>4</span><h3>Vous améliorez progressivement</h3><p>On ajuste selon les retours, les usages et les priorités business.</p></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="why section-pad">
-      <div class="container why-grid">
-        <div>
-          <p class="eyebrow">Pourquoi FenixFuz</p>
-          <h2>Une approche professionnelle, simple et orientée résultat.</h2>
-          <p>Nous aidons les entreprises à transformer leurs besoins de gestion en solutions web claires : sans jargon inutile, sans outil trop lourd, sans promesse irréaliste.</p>
-        </div>
-        <div class="why-list">
-          <div><strong>Business d’abord</strong><span>On cherche à résoudre le problème opérationnel avant de parler technique.</span></div>
-          <div><strong>Commencer petit</strong><span>Une première version utile vaut mieux qu’un gros projet flou.</span></div>
-          <div><strong>Communication directe</strong><span>WhatsApp, email, cadrage clair, devis selon le besoin.</span></div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="contact section-pad">
-      <div class="container contact-grid">
-        <div class="contact-copy">
-          <p class="eyebrow">Démarrer</p>
-          <h2>Expliquez votre besoin, nous vous aidons à le cadrer.</h2>
-          <p>Envoyez-nous une description simple de votre activité et du problème à résoudre. Nous vous répondrons avec une première orientation.</p>
-          <a class="btn btn-primary btn-large whatsapp-link" href="https://wa.me/221777989238?text=Bonjour%2C%20je%20souhaite%20cr%C3%A9er%20une%20application%20ou%20solution%20web%20pour%20mon%20activit%C3%A9.%20Mon%20besoin%20est%20le%20suivant%20%3A" target="_blank" rel="noopener">Parler sur WhatsApp</a>
-          <p class="email-line">Email : <a href="mailto:contact@fenixfuz.com">contact@fenixfuz.com</a></p>
-        </div>
-        <form class="lead-form" id="leadForm">
-          <h3>Recevoir une première orientation</h3>
-          <label>Nom
-            <input type="text" name="name" placeholder="Votre nom" required>
-          </label>
-          <label>Activité
-            <input type="text" name="business" placeholder="Ex : commerce, service, PME..." required>
-          </label>
-          <label>Besoin
-            <textarea name="need" rows="4" placeholder="Décrivez votre besoin en quelques mots" required></textarea>
-          </label>
-          <button class="btn btn-primary btn-full" type="submit">Préparer le message WhatsApp</button>
-          <p class="form-note">Le formulaire prépare un message WhatsApp avec vos informations. Aucun paiement supplémentaire nécessaire.</p>
-        </form>
-      </div>
-    </section>
+    <section id="contact" class="section contact"><div class="container contact-grid"><div class="reveal"><span class="badge">Démarrer</span><h2>Expliquez votre besoin. On vous aide à cadrer la bonne solution.</h2><p>WhatsApp reste le canal le plus rapide. Le formulaire prépare aussi un message structuré pour éviter les échanges flous.</p><a class="btn btn-primary btn-xl whatsapp-link" href="https://wa.me/221777989238?text=Bonjour%2C%20je%20souhaite%20cr%C3%A9er%20une%20application%20ou%20solution%20web%20pour%20mon%20activit%C3%A9.%20Mon%20besoin%20est%20le%20suivant%20%3A" target="_blank">Parler sur WhatsApp</a><p class="email">Email : <a href="mailto:contact@fenixfuz.com">contact@fenixfuz.com</a></p></div><form class="lead-form reveal delay-1" id="leadForm"><h3>Recevoir une première orientation</h3><label>Nom<input name="name" placeholder="Votre nom" required></label><label>Activité<input name="business" placeholder="Commerce, service, PME..." required></label><label>Besoin<textarea name="need" rows="4" placeholder="Décrivez le problème à résoudre" required></textarea></label><button class="btn btn-primary btn-full" type="submit">Préparer le message WhatsApp</button></form></div></section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div>
-        <strong>FenixFuz</strong>
-        <p>Applications métiers, solutions web et automatisation pour entreprises.</p>
-      </div>
-      <div>
-        <a href="https://www.fenixfuz.com" target="_blank" rel="noopener">Site principal</a>
-        <a href="mailto:contact@fenixfuz.com">contact@fenixfuz.com</a>
-      </div>
-    </div>
-  </footer>
-
+  <footer><div class="container footer-grid"><strong>FenixFuz</strong><span>Applications métiers, solutions web et automatisation.</span></div></footer>
   <script src="script.js"></script>
 </body>
 </html>
